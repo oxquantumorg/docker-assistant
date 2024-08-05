@@ -1,8 +1,4 @@
 #!/bin/bash
-# CONTAINER_NAME="chiano"
-# EMAIL_TO=""
 
-export CONTAINER_NAME="chiano"
-
-chmod 777 ./checkContainer.sh
-./checkContainer.sh
+chmod 777 ./bin/monitor.sh
+./bin/monitor.sh
