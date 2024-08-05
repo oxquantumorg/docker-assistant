@@ -8,8 +8,18 @@ message=''
 err_message=''
 for CONTAINER_NAME in ${CONTAINERS[@]}; do
     if ! docker ps | grep $CONTAINER_NAME > /dev/null; then
-        err_message="${err_message}-Container $CONTAINER_NAME is not running.
+        err_message="${err_message}______________________________________________
+" 
+        err_message="${err_message}-Container $CONTAINER_NAME is not running. Restarting... 
 "
+        docker restart "$CONTAINER_NAME"
+        if [ $? -eq 0 ]; then
+            err_message+="Successfully restarted $CONTAINER_NAME. 
+"
+        else
+            err_message+="Failed to restart $CONTAINER_NAME. 
+"
+        fi
     else
         message="${message}-Container $CONTAINER_NAME is running."
     fi
