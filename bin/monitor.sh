@@ -26,5 +26,5 @@ err_message+="Failed to restart $CONTAINER_NAME.
     fi
 done
 
-send_message "$message"
+# send_message "$message"
 send_message "$err_message"
