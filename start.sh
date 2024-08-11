@@ -1,4 +1,8 @@
 #!/bin/bash
 
-chmod 777 ./bin/monitor.sh
-./bin/monitor.sh
+# Get the directory where this script is located
+SCRIPT_DIR=$(dirname "$(realpath "$0")")
+
+# Change permissions and run monitor.sh using the dynamic path
+chmod 777 "$SCRIPT_DIR/bin/monitor.sh"
+"$SCRIPT_DIR/bin/monitor.sh"
