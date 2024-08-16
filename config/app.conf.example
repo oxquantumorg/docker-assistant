@@ -1,4 +1,14 @@
 TELEGRAM_BOT_TOKEN=
 ADMIN_CHAT_ID=
-CONTAINERS=("container1" "container2" "container3")
+CONTAINERS= (
+    "container1" 
+    "container2" 
+    "container3"
+)
+SCRIPTS_PATH="/home/azure/user"
+SCRIPTS_MAP=(
+    "cat:container1.sh" 
+    "dog:container2.sh" 
+    "goat:container3.sh"
+)
 SERVER_NAME=
