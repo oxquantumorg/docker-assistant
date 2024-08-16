@@ -5,6 +5,7 @@ CONTAINERS= (
     "container2" 
     "container3"
 )
+BASH_PATH= 
 SCRIPTS_PATH="/home/azure/user"
 SCRIPTS_MAP=(
     "cat:container1.sh" 

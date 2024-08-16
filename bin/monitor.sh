@@ -1,8 +1,8 @@
 #!/bin/bash
 
 # Source the utility functions
-source "$(dirname "$0")/../lib/telegram.sh"
-source "$(dirname "$0")/../config/app.conf"
+source "$(dirname "$(dirname "$(realpath "$0")")")/lib/telegram.sh"
+source "$(dirname "$(dirname "$(realpath "$0")")")/config/app.conf"
 
 # Ensure err_message and message are initialized
 err_message=""
