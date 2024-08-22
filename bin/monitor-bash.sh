@@ -1,8 +1,8 @@
 #!/bin/bash
 
 # Source the utility functions
-source "$(dirname "$(dirname "$(realpath "$0")")")/lib/telegram.sh"
-source "$(dirname "$(dirname "$(realpath "$0")")")/config/app.conf"
+source "../lib/telegram.sh"
+source "../config/app.conf"
 
 err_message=''
 message="Message from: $SERVER_NAME
