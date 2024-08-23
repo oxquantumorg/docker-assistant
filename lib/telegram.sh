@@ -1,7 +1,8 @@
 #!/bin/bash
 
+SCRIPT_DIR=$(dirname "$(realpath "$0")")
 # Source the configuration
-source "../config/app.conf"
+source "$SCRIPT_DIR/config/app.conf"
 
 function send_message() {
     local message=$1

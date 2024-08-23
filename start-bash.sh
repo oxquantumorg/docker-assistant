@@ -4,5 +4,5 @@
 SCRIPT_DIR=$(dirname "$(realpath "$0")")
 
 # Change permissions and run monitor-bash.sh using the dynamic path
-chmod 777 "$SCRIPT_DIR/bin/monitor-bash.sh"
+chmod +x "$SCRIPT_DIR/bin/monitor-bash.sh"
 "$SCRIPT_DIR/bin/monitor-bash.sh"
