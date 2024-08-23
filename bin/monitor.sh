@@ -29,7 +29,5 @@ for CONTAINER_NAME in "${CONTAINERS[@]}"; do
     fi
 done
 
-
-echo $message
 send_message "$message"
 send_message "$err_message"
