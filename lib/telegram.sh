@@ -1,7 +1,7 @@
 #!/bin/bash
 
 # Source the configuration
-source "$(dirname "$0")/../config/app.conf"
+source "../config/app.conf"
 
 function send_message() {
     local message=$1

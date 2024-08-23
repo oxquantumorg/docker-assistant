@@ -1,11 +1,8 @@
 #!/bin/bash
 
 # Source the utility functions
-# SCRIPT_DIR=$(dirname "$(realpath "$0")")
-SCRIPT_DIR='/'
-echo $SCRIPT_DIR
-source "./lib/telegram.sh"
-source "./config/app.conf"
+source "../lib/telegram.sh"
+source "../config/app.conf"
 
 err_message=''
 message="Message from: $SERVER_NAME
