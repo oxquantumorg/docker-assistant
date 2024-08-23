@@ -32,7 +32,8 @@ err_message+="Failed to restart $CONTAINER_NAME.
 "
         fi
     else
-        message="${message}-Container $CONTAINER_NAME is running."
+        message="${message}-Container $CONTAINER_NAME is running.
+"
     fi
 done
 

@@ -25,7 +25,8 @@ for CONTAINER_NAME in "${CONTAINERS[@]}"; do
 "
         fi
     else
-        message="${message}-Container $CONTAINER_NAME is running."
+        message="${message}-Container $CONTAINER_NAME is running.
+"
     fi
 done
 
