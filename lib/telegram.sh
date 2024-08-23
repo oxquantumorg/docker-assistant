@@ -1,6 +1,6 @@
 #!/bin/bash
 
-SCRIPT_DIR=$(dirname "$(realpath "$0")")
+SCRIPT_DIR=$(dirname "$(dirname "$(realpath "$0")")")
 # Source the configuration
 source "$SCRIPT_DIR/config/app.conf"
 
