@@ -2,3 +2,4 @@ logs/*
 config/*.conf
 *.bak
 *.tmp
+cron.log
