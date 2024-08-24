@@ -7,7 +7,7 @@ source "$SCRIPT_DIR/config/app.conf"
 
 # Ensure err_message and message are initialized
 err_message=""
-message="Message from: $SERVER_NAME
+message=" 
 "
 
 for CONTAINER_NAME in "${CONTAINERS[@]}"; do

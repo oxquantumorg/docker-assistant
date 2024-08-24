@@ -6,7 +6,7 @@ source "$SCRIPT_DIR/lib/telegram.sh"
 source "$SCRIPT_DIR/config/app.conf"
 
 err_message=''
-message="Message from: $SERVER_NAME
+message=" 
 "
 
 for CONTAINER_NAME in "${SCRIPTS[@]}"; do
