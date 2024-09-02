@@ -8,8 +8,8 @@ CONTAINERS= (
 BASH_PATH= 
 SCRIPTS_PATH="/home/azure/user"
 SCRIPTS_MAP=(
-    "cat:container1.sh" 
-    "dog:container2.sh" 
-    "goat:container3.sh"
+    "contain1name:container1.sh" 
+    "contain2name:container2.sh" 
+    "contain3name:container3.sh"
 )
 SERVER_NAME=
